@@ -1,0 +1,49 @@
+/*Gerais */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+body{
+  background: rgb(73, 70, 70);
+}
+
+
+ #container{
+  width: 400px;
+  height: auto;
+  border: 4px inset rgb(0, 0, 0);
+  margin: 200px auto;
+  background: white;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px rgb(80, 80, 248);
+}
+
+
+#container .titulo{
+  text-align: center;
+  margin-bottom: 15px;
+  color: black;
+  font-weight: 600;
+}
+
+#container form{
+  display: flex;
+  flex-direction: column;
+
+}
+
+#container input{
+  margin-bottom: 15px;
+ 
+  
+}
+
+#container #resultado{
+  text-align: center;
+}
